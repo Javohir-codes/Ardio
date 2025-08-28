@@ -89,3 +89,134 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.section-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+h2 {
+    font-size: 36px;
+}
+.section-about-text {
+    font-size: 16px;
+    color: #5B5963;
+}
+.section-about-div-text {
+    width: 300px;
+}
+.section-about-h3 {
+    font-size: 26px;
+}
+.section-about-div-check {
+    width: 800px;
+}
+.section-about-div-check-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-about-div-check-h3 {
+    width: 16px;
+    text-transform: capitalize;
+}
+.section-about-div-check-text {
+    font-size: 16px;
+    color: #5B5963;
+    width: 550px;
+}
+.border-div {
+    border-top: 1px solid #5B5963;
+    border-bottom: 1px solid #5B5963;
+    margin-bottom: 30px;
+}
+.section-number-div-h3 {
+    font-size: 50px;
+    text-align: center;
+}
+.section-number {
+    background-color: #FFCB66;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-number-div-p {
+    font-size: 20px;
+    text-align: center;
+}
+.section-number-div {
+    line-height: 5px;
+}
+.section-proccess {
+    padding: 0px 150px;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-proccess-main-img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+}
+.section-proccess-half-first {
+    position: absolute;
+    z-index: 1;
+    bottom: 730px;
+    right: 1100px;
+}
+.section-proccess-div-img {
+    position: relative;
+    height: 600px;
+}
+.section-proccess-half-second {
+    position: absolute;
+    z-index: -1;
+    bottom: 100px;
+    left: 100px;
+}
+.section-proccess-h3 {
+    font-size: 40px;
+}
+.section-proccess-text {
+    font-size: 20px;
+}
+.section-proccess-div-text {
+    height: 600px;
+}
+.section-proccess-div-h3 {
+    font-size: 26px;
+}
+.section-proccess-div-text {
+    width: 300px;
+    font-size: 16px;
+    height: 50px;
+}
+.section-proccess-main-div {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.section-proccess-div {
+    height: 150px;
+}
+.section-design {
+    padding: 0px 150px;
+}
+.section-design-h3 {
+    font-size: 36px;
+}
+.section-design-link {
+    font-size: 26px;
+    color: #5B5963;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.section-design-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5B5963;
+}
