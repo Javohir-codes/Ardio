@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+    header,
+    .section-about,
+    .section-proccess,
+    .section-design {
+      padding: 0 50px;
+    }
+    .header-main-div {
+      flex-direction: column;
+      text-align: center;
+    }
+    .header-div-text,
+    .header-div-img {
+      width: 100%;
+    }
+    .header-div-img img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .nav-link-div {
+      width: auto;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .section-about,
+    .section-proccess {
+      flex-direction: column;
+      text-align: center;
+    }
+    .section-about-div-check,
+    .section-proccess-main-div {
+      width: 100%;
+    }
+    .section-proccess-main-div {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .section-design-main-div {
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-design-div {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 28px;
+    }
+    .header-button-scroll,
+    .header-button {
+      width: auto;
+      padding: 10px 20px;
+    }
+    .section-number {
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    nav img {
+      width: 150px;
+    }
+    .nav-link-div {
+      display: none; /* можно скрыть меню на мобилках */
+    }
+    .fa-bars {
+      display: block;
+      font-size: 24px;
+    }
+    footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+    form {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-input {
+      width: 100%;
+      font-size: 20px;
+    }
+    .footer-form-button {
+      width: 100%;
+    }
+  }
